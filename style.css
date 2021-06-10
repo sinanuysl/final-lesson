@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(twilight-night-sky-4k-photography-1920x1080_785556-mm-90.jpg);
+    font-family: sans-serif;
+
+}
+.menu-bar{
+    text-align: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(240, 248, 255);
+}
+.active, .menu-bar ul li:hover{
+    background: #d4c995; 
+    border-radius: 10px;
+}
+.menu-bar .fas{
+    margin-right: 8px;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+}
+.center h1{
+    color: #d4c995;
+    font-size: 70px;
+    font-weight: 70px;
+    width: 900px;
+}
+.center p{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 20px;
+    width: 800px; 
+}
+
+
+.intro{
+    width:70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.intro-row h2{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #000;
+    padding: 10px;
+    
+}
+.intro-row h1{
+    align-items: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.intro-row{
+    flex-basis: 40%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+
+
+.intro-row:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+
+.cvv img{
+    width: 800px;
+    height: 400px;
+}
+    
+.cvv-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.cvv-col img{
+    width: 50%; 
+    height: 50%;
+    border-radius: 10px;
+    display: inline-flex;
+}
